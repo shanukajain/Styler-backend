@@ -9,14 +9,14 @@ const transporter = nodemailer.createTransport({
   auth: {
     // user: 'forsmmpanel@gmail.com',
     // pass: 'noymjrhbxjwiclin'
-    user: "hair05styler@gmail.com",
-    pass: "efcjdepnofhkyydp"
+   user: 'forsmmpanel@gmail.com',
+    pass: 'noymjrhbxjwiclin'
   }
 });
 
 transporter.sendMail({
     to: usermail,
-    from: 'hair05styler@gmail.com',
+    from: 'forsmmpanel@gmail.com',
     subject: "Verify your email",
     text: "also this ?",
     html: `<h1>Your OTP is :- ${OTP}</h1>`
